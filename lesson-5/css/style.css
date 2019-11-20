@@ -35,27 +35,27 @@ h2:after {
 }
 
 /* выбор цвета*/
-.tex-red {
+.book-title {
 	color: red;
 }
 
-.tex-green {
+.header-1 {
 	color: green;
 }
 
-.text-yellow {
+.header-2 {
 	color: #e6b800;
 }
 
-.text-blue {
+.header-3 {
 	color: #0000cc;
 }
 
-.text-purple {
+.header-4 {
 	color: #b30047;
 }
 
-.text-orange {
+.header-5 {
 	color: #ff6600;
 }
 
