@@ -1,0 +1,86 @@
+body{
+	background: url(../img/background1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+	border: 2px groove 	rgba(0,0,0, 0.5);
+}
+
+h1:before{
+	content: url(../img/vignette_left.png);	
+}
+
+h1:after{
+	content: url(../img/vignette_right.png); 
+}
+
+h2{
+	text-align: center;
+	border: 2px groove 	rgba(0,0,0, 0.5);
+}
+
+h2:before{
+	content: url(../img/vignette_left.png);	
+}
+
+h2:after{
+	content: url(../img/vignette_right.png); 
+}
+
+/* выбор цвета*/
+.tex-red{
+	color: red;
+}
+
+.tex-green{
+	color: green;
+}
+
+.text-yellow{
+	color: #e6b800;
+}
+
+.text-blue{
+	color: #0000cc;
+}
+
+.text-purple{
+	color: #b30047;
+}
+
+.text-orange{
+	color: #ff6600;
+}
+
+
+/*стиль написания*/
+.text-bold{
+	font-weight: bold;
+}
+
+.text-italic{
+	font-style: italic;
+}
+
+.text-underline{
+	text-decoration: underline;
+}
+
+.text-line-through{
+	text-decoration: line-through;
+}
+
+
+
+
+.img-border{
+	border: 2px groove black;
+}
+
+.img-size{
+	max-width:30%;
+	max-height: 30%
+}
