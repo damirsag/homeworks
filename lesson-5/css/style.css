@@ -1,86 +1,107 @@
-body{
+body {
 	background: url(../img/background1.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-h1{
+/*добавление виньетки для заголовков*/
+
+h1 {
 	text-align: center;
-	border: 2px groove 	rgba(0,0,0, 0.5);
+	border: 2px groove 	rgba(0, 0, 0, 0.5);
 }
 
-h1:before{
+h1:before {
 	content: url(../img/vignette_left.png);	
 }
 
-h1:after{
+h1:after {
 	content: url(../img/vignette_right.png); 
 }
 
-h2{
+h2 {
 	text-align: center;
-	border: 2px groove 	rgba(0,0,0, 0.5);
+	border: 2px groove 	rgba(0, 0, 0, 0.5);
 }
 
-h2:before{
+h2:before {
 	content: url(../img/vignette_left.png);	
 }
 
-h2:after{
+h2:after {
 	content: url(../img/vignette_right.png); 
 }
 
 /* выбор цвета*/
-.tex-red{
+.tex-red {
 	color: red;
 }
 
-.tex-green{
+.tex-green {
 	color: green;
 }
 
-.text-yellow{
+.text-yellow {
 	color: #e6b800;
 }
 
-.text-blue{
+.text-blue {
 	color: #0000cc;
 }
 
-.text-purple{
+.text-purple {
 	color: #b30047;
 }
 
-.text-orange{
+.text-orange {
 	color: #ff6600;
 }
 
 
 /*стиль написания*/
-.text-bold{
+.text-bold {
 	font-weight: bold;
 }
 
-.text-italic{
+.text-italic {
 	font-style: italic;
 }
 
-.text-underline{
+.text-underline {
 	text-decoration: underline;
 }
 
-.text-line-through{
+.text-line-through {
 	text-decoration: line-through;
 }
 
-
-
-
-.img-border{
+.img-border {
 	border: 2px groove black;
 }
 
-.img-size{
-	max-width:30%;
+.img-size {
+	max-width: 30%;
 	max-height: 30%
+}
+
+.img-left {
+	float:left; 
+	margin: 7px 7px 7px 0;
+}
+
+.menu {
+	display: block;
+	position: fixed;
+	right: 5%;
+	border: 1px groove black;
+
+}
+
+.content {
+	display: block;
+	width: 70%;
+	float: left;
+	text-align: justify;
+	margin-top: 0.5em;
+	height: 105px;
 }
