@@ -77,16 +77,10 @@ h2:after {
 	text-decoration: line-through;
 }
 
-.img-border {
+.images {
 	border: 2px groove black;
-}
-
-.img-size {
 	max-width: 30%;
-	max-height: 30%
-}
-
-.img-left {
+	max-height: 30%;
 	float:left; 
 	margin: 7px 7px 7px 0;
 }
