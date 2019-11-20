@@ -8,7 +8,8 @@ body {
 
 h1 {
 	text-align: center;
-	border: 2px groove 	rgba(0, 0, 0, 0.5);
+	padding-top: 2%;
+	border: 0px groove 	rgba(0, 0, 0, 0.5);
 }
 
 h1:before {
@@ -21,7 +22,8 @@ h1:after {
 
 h2 {
 	text-align: center;
-	border: 2px groove 	rgba(0, 0, 0, 0.5);
+	padding-top: 2%;
+	border: 0px groove 	rgba(0, 0, 0, 0.5);
 }
 
 h2:before {
@@ -89,19 +91,48 @@ h2:after {
 	margin: 7px 7px 7px 0;
 }
 
+/* раздел меню, закрепляем, ставим иконки*/
+
 .menu {
 	display: block;
 	position: fixed;
-	right: 5%;
-	border: 1px groove black;
+	right: 2%;
+	border: 1px groove #0000002e;
+	margin-top: 1%;
+	background: #ad8c6447;
+}
 
+.menu-title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #222;
+	font-size: 16px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	border-left: 2px solid #b99d61;
+}
+
+.menu a{
+	display: block;
+	text-decoration: none;
+	outline: none;
+	padding: 6px 0; 
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: #444;
+}
+
+ul li {
+	padding-top: 10px;
+	font-size: 18px;
+	list-style-image: url(../img/ring.png);
 }
 
 .content {
 	display: block;
-	width: 70%;
+	padding-left: 5%;
+	width: 60%;
 	float: left;
 	text-align: justify;
-	margin-top: 0.5em;
-	height: 105px;
+	margin-top: 1%;
 }
