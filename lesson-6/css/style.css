@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-	display: flex;
+	display: inline-block;
 	max-width: 1009px;
 	width: 90%;
 	padding: 64px 93px 64px 48px;
@@ -23,56 +23,60 @@ body {
 
 .img {
 	display: inline-block;
-	width: 100%;
+	width: 50%;	
 }
 
 img {
 	max-width: 100%;
+	display: block;
+	margin: auto;
 }
 
 .text {
 	display: inline-block;
-	padding-left: 10%;
-	width: 100%;
+	padding-left: 9%;
+	max-width: 50%;
+	position: absolute;
+	
 }
 
 .header {
 	margin-top: 4%;
 	margin-bottom: 9%;
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 22.5px;
 	color: #2f2f2f;
 }
 
 .description {
-	margin-bottom: 15%;
-	font-family: sans-serif;
+	margin-bottom: 10%;
+	font-family: arial;
 	font-size: 15px;
 	color: #2f2f2f;
 }
 
 .price-name {
 	margin-bottom: 5%;
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 15px;
 	color: #2f2f2f;
 }
 
 .price {
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 30px;
 	color: #2f2f2f;
 }
 
 .button-buy {
-	margin-top: 18%;
+	margin-top: 15%;
 	padding: 0;
 	width: 252px;
 	height: 50px;
 	background-color: #ec744a;
 	border: 1px solid #ec744a;
 	color: #ffffff;
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 19px;
 	font-weight: 400;
 	cursor: pointer;
