@@ -124,7 +124,7 @@ h2 {
 .shipping-description {
 	display: flex;
 	width: 1075px;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	justify-content: center;
 	align-items: stretch;
 }
@@ -139,7 +139,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	height: 30%;
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 }
 
 .shipping-text {
