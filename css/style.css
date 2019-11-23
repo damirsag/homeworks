@@ -8,7 +8,6 @@ body {
 	margin: 0;
 	display: flex;
 	justify-content: center;
-
 }
 
 h1 {
@@ -42,12 +41,10 @@ main {
 	align-content: flex-start;
 	margin-bottom: 100px;
 	width: 400px;
-	height: 400px;
-	
-	
+	height: 400px;	
 }
 
-.button-homework button{
+.button-homework button {
 	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 5px;
@@ -73,5 +70,11 @@ main {
   content: "";
 }
 
+.author {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -100px;
+}
 
 
