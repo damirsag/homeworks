@@ -138,8 +138,8 @@ h2 {
 .shipping-img {
 	display: flex;
 	justify-content: center;
-	height: 30%;
-	margin-bottom: 1%;
+	width: 50px;
+	margin: auto;
 }
 
 .shipping-text {

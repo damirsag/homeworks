@@ -37,7 +37,7 @@ h2 {
 	justify-content: space-around;
 }
 
-.card_product {
+.card-product {
 	height: 366px;
 	display: flex;
 	flex-direction: column;
@@ -45,7 +45,7 @@ h2 {
 	justify-content: space-around;
 }
 
-.name_product {
+.name-product {
 	font-family: 'Proxima Nova Rg';
 	font-weight: normal;
 	font-style: normal;
@@ -57,7 +57,7 @@ h2 {
 	font-style: normal;
 }
 
-.button_buy {
+.button-buy {
 	padding: 0;
 	width: 200px;
 	height: 55px;
