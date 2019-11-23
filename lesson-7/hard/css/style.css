@@ -4,6 +4,8 @@
 
 body {
 	font-family: "Tahoma";
+	padding: 0;
+	margin: 0;
 }
 
 /*блок с книгой и описанием*/
@@ -103,9 +105,9 @@ h1 {
 /*выстраиваем в колонку 2 блока из заголовка и блоков*/
 .shipping {
 	display: flex;
+	align-items: center;
 	flex-direction: column;
-	border: 1px solid #ffffff;
-	background-color: #f2f2f2;	
+	background-color: #f2f2f2;
 }
 
 h2 {
@@ -121,28 +123,28 @@ h2 {
 
 .shipping-description {
 	display: flex;
+	width: 1075px;
+	margin-bottom: 5%;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 }
 
 .shipping-block {
 	display: flex;
+	margin: 0 2%;
 	flex-direction: column;
-	margin: 0 3%;
-	width: 241px;
 }
 
 .shipping-img {
 	display: flex;
 	justify-content: center;
-	max-height: 50%;
-
+	height: 30%;
+	margin-bottom: 10px;
 }
 
 .shipping-text {
 	display: flex;
 	text-align: center;
-	margin-bottom: 20%;
 	font-family: "Tahoma";
 	font-size: 18px;
 	font-weight: 400;
