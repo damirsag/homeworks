@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Tahoma";
+}
+
+/*блок с книгой и описанием*/
+/*ставим контент по середине*/
+.header-book {
+	display: flex;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/*делаем ограничение дива по ширине что бы можно было расставить элементы, а так же делаем расстояние между ними*/
+.header {
+	width: 1005px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.header-img {
+	display: flex;
+}
+/*выравниваем блок с описанем по началу контейнера*/
+.header-description {
+	align-self: flex-start;
+	width: 527px;
+	height: 435px;
+}
+
+h1 {
+	margin-bottom: 15px;
+	color: #000000;
+	font-family: "Tahoma";
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.subtitle {
+	color: #000000;
+	font-family: "Tahoma";
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.description {
+	color: #000000;
+	font-family: "Tahoma";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.price {
+	color: #313131;
+	font-family: "Tahoma";
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.button-buy {
+	padding: 0;
+	margin-right: 8%;
+	width: 175px;
+	height: 67px;
+	border: 1px solid #f05a22;
+	border-radius: 5px;
+	background-color: #f05a22;
+	color: #ffffff;
+	font-family: "Tahoma";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	cursor: pointer;
+}
+
+/*делаем закругленную, прозрачную кнопку, без анимации нажатия*/
+.button-about {
+	padding: 0;
+	width: 287px;
+	height: 67px;
+	border-radius: 5px;
+	border: 2px solid #f05a22;
+	background: transparent;
+	color: #f05a22;
+	font-family: "Tahoma";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	cursor: pointer;
+}
+
+
+
+
+.shipping {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ffffff;
+	background-color: #f2f2f2;	
+}
+
+h2 {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	font-family: "Tahoma";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+}
+
+.shipping {
+	display: flex;	
+}
+
+.shipping-description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shipping-block {
+	margin: 0 3%;
+	width: 241px;
+}
+
+.shipping-img {
+	display: flex;
+	justify-content: center;
+	max-height: 50%;
+}
+
+.shipping-text {
+	display: flex;
+	text-align: center;
+	font-family: "Tahoma";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #333333;
+	margin-bottom: 20%;
+}
