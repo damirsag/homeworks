@@ -55,15 +55,22 @@ img {
 	margin-top: 100px;
 }
 
+
+
+.buyers-img-size img {
+	max-width: 362px;
+	max-height: 254px;
+}
+
 .navbar-header {
 	color: #95989a;
 	font-size: 20px;
 	font-weight: 700;
 }
 
-h2 {
+.section-heading {
 	font-size: 48px;
-	font-weight: 700;
+	
 }
 
 .section-subtitle {
@@ -76,8 +83,6 @@ footer {
 }
 
 footer h4 {
-/* 	margin-top: 78px;
-margin-bottom: 34px; */
 	color: #ffffff
 
 }
@@ -93,4 +98,25 @@ footer a {
 
 footer a:hover{
 	color: #ffffff
+}
+
+
+@media (max-width: 1200px) {
+	.buyers-img img {
+		max-width: 312px;
+		max-height: 204px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	footer, .buyers, .about .main, .about-picture{
+		text-align: center;
+	}
+}
+
+@media (max-width: 412px) {
+	.buttons a {
+		margin-bottom: 10px;
+	}
 }
