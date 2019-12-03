@@ -4,11 +4,6 @@ const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
 
-gulp.task('hello', function(done) {
-  console.log('Привет, мир!');
-  done();
-});
-
 // Static server
 gulp.task('browser-sync', function() {
   browserSync.init({
