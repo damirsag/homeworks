@@ -15,8 +15,6 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "cssmin": "^0.4.3",
-    "gulp-rename": "^1.4.0",
-    "rename": "^1.0.4"
+    "gulp-rename": "^1.4.0"
   }
 }
