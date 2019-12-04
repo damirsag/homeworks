@@ -27,12 +27,3 @@ function serveSass() {
 };
 
 exports.serve = bs;
-
-//clean CSS task
-function mincss() {
-
-  return src(['./css/*.css', '!./css/*.min.css'])
-  .pipe(cleanCSS({ level: 2 }))
-  .pipe(rename({ suffix: '.min'}))  
-  .pipe(gulp.dest('./css'));
-};

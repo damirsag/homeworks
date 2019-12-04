@@ -93,7 +93,8 @@ body {
 	margin-bottom: 10px;
 }
 
-.button_buy {
+
+.button {
 	box-shadow: 4px 7px 13px 0px rgba(0,0,0,0.03);
 	width: 210px;
 	height: 65px;
@@ -107,7 +108,7 @@ body {
 	cursor: pointer;
 }
 
-.additional-services {
+.services {
 	margin-bottom: 90px;	
 }
 
