@@ -40,7 +40,7 @@ body {
 	color: #ffffff;
 }
 
-.subtitle_center {
+.price__subtitle {
 	margin-bottom: 86px;
 	text-align: center;
 	font-size: 18px;
@@ -112,6 +112,13 @@ body {
 	margin-bottom: 90px;	
 }
 
+.services__subtitle {
+	margin-bottom: 86px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+}
 
 .block-buy {
 	text-align: center;
