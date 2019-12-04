@@ -49,6 +49,8 @@ body {
 }
 
 .product-item__img {
+	width: 276px;
+	height: 250px;
 	margin-bottom: 30px;
 }
 
