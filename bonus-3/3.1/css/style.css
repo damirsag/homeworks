@@ -26,7 +26,7 @@ body {
 	margin-bottom: 75px;
 }
 
-.title {
+.page__title {
 	font-size: 35px;
 	line-height: 25px;
 	font-weight: 700;
@@ -54,7 +54,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.product-item_subtitle {
+.product-item__subtitle {
 	margin-bottom: 29px;
 	font-size: 18px;
 	line-height: 22px;
@@ -70,30 +70,25 @@ body {
 	justify-content: space-between;
 }
 
-.buttons__about_outline {
+.button {
 	width: 133px;
-	height: 41px;
-	border: 2.0px solid #66cc66;
-	background-color: transparent;
+	height: 41px;	
 	font-size: 14px;
 	line-height: 25px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #66cc66;
 	cursor: pointer;
 }
 
-.buttons__buy_green {
-	width: 133px;
-	height: 41px;
+.button_outline {
+	border: 2.0px solid #66cc66;
+	background-color: transparent;
+	color: #66cc66;
+}
+
+.button_green {
 	background-color: #66cc66;
 	border: 1px solid transparent;
-	font-size: 14px;
-	line-height: 25px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
-	cursor: pointer;
 }
 
 
