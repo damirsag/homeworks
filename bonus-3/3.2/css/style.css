@@ -31,7 +31,7 @@ body {
 	flex-direction: column;
 }
 
-.title {
+.price__title {
 	margin-top: 100px;
 	margin-bottom: 49px;
 	text-align: center;
@@ -40,7 +40,7 @@ body {
 	color: #ffffff;
 }
 
-.subtitle {
+.price__subtitle {
 	margin-bottom: 86px;
 	text-align: center;
 	font-size: 18px;
@@ -110,6 +110,14 @@ body {
 
 .services {
 	margin-bottom: 90px;	
+}
+
+.services__subtitle {
+	margin-bottom: 86px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
 }
 
 .block-buy {
