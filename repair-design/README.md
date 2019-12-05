@@ -1,1 +1,1 @@
-https://github.com/damirsag/homeworks/tree/master/repair-design
+https://damirsag.github.io/homeworks/repair-design
