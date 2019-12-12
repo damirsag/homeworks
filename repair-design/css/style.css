@@ -564,7 +564,8 @@ img {
   width: 16.28rem;
   height: 3.85rem;
   text-align: center;
-  line-height: 3.92rem; }
+  line-height: 3.92rem;
+  font-weight: 500; }
 
 .design__section-title {
   margin-bottom: 2.78rem; }
