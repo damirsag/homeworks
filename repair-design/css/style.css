@@ -617,21 +617,22 @@ img {
   .title {
     font-size: 1.94rem;
     font-weight: 500; }
-  .hero {
+  .hero__scroll-down {
+    display: none; }
+  .hero__content {
+    max-width: 27rem;
+    margin-top: 47.8px; }
+  .hero__text {
     font-size: 1.49rem;
     margin-bottom: 2.48rem;
     line-height: 144.1%;
-    word-spacing: 0.01rem;
+    word-spacing: 0.01rem; }
+  .hero__button {
     display: block;
     min-width: 27rem;
     min-height: 4.3rem;
     margin-bottom: 2.15rem;
-    font-size: 1.1rem; }
-    .hero__scroll-down {
-      display: none; }
-    .hero__content {
-      max-width: 27rem;
-      margin-top: 47.8px; } }
+    font-size: 1.1rem; } }
 
 @media screen and (max-width: 349px) {
   .hero__button {
