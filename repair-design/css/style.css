@@ -561,7 +561,10 @@ img {
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
-  padding: 1.214rem 2.6rem; }
+  width: 16.28rem;
+  height: 3.85rem;
+  text-align: center;
+  line-height: 3.92rem; }
 
 .design__section-title {
   margin-bottom: 2.78rem; }
