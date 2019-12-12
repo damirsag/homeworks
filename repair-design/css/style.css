@@ -642,6 +642,10 @@ img {
   .hero__text {
     max-width: 22.4rem; } }
 
+@media screen and (max-width: 320px) {
+  .card__text {
+    max-width: 19.6rem; } }
+
 @media screen and (max-height: 556px) {
   .hero__scroll-down {
     display: none; } }
