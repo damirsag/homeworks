@@ -373,11 +373,13 @@ img {
         background-color: #E3B873;
         margin: 0 10px; }
     .section-title__description {
+      word-spacing: 0.223rem;
       margin: auto;
-      margin-top: 1.64rem;
-      font-size: 1.07rem;
+      margin-top: 1.44rem;
+      font-size: 1.368rem;
       line-height: 135.84%;
-      max-width: 48rem; }
+      max-width: 52.5rem;
+      font-family: 'Futura Book'; }
 
 .header {
   position: fixed;
