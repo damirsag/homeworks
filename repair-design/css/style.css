@@ -739,7 +739,6 @@ img {
   .hero__scroll-down {
     display: none; }
   .hero__content {
-    max-width: 27rem;
     margin-top: 47.8px; }
   .hero__text {
     font-size: 1.49rem;
