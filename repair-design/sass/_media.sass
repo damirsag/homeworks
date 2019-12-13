@@ -68,21 +68,32 @@
     	margin-bottom: 2.15rem
     	font-size: 1.1rem
     	width: 100%
-	.section-title__heading 
-    margin-bottom: 1.2rem
-    font-size: 1.77rem
-    font-weight: 500
-    line-height: 138.6%
-	.section-title__description
-		font-size: 1.25rem
-		margin-top: 1.6rem
-		/* line-height: 156.64%; */
-		/* margin-top: 1.84rem; */
-		/* word-spacing: 0.123rem; */
-		text-align: center
-		max-width: 306px
-		max-height: 76px
-		margin-bottom: 0.8rem
+	.section-title
+		&__heading 
+    	margin-bottom: 1.2rem
+    	font-size: 1.77rem
+    	font-weight: 500
+    	line-height: 138.6%
+		&__description
+			font-size: 1.25rem
+			margin-top: 1.6rem
+			/* line-height: 156.64%; */
+			/* margin-top: 1.84rem; */
+			/* word-spacing: 0.123rem; */
+			text-align: center
+			max-width: 306px
+			max-height: 76px
+			margin-bottom: 0.8rem
+	.returnButton
+		margin: 0
+		width: 100%
+		background: $dark
+		&:after
+			border: none
+			margin-left: unset
+			border-radius: unset
+			width: 100%
+
 
 
 @media screen and (max-width: 350px)
