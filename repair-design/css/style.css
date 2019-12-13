@@ -736,23 +736,25 @@ img {
   .title {
     font-size: 1.94rem;
     font-weight: 500; }
-  .hero__scroll-down {
-    display: none; }
-  .hero__content {
-    margin-top: 47.8px; }
-  .hero__text {
-    font-size: 1.49rem;
-    margin-bottom: 2.48rem;
-    line-height: 144.1%;
-    word-spacing: 0.01rem;
-    max-width: 26.6rem; }
-  .hero__button {
-    display: block;
-    min-width: 27rem;
-    min-height: 4.3rem;
-    margin-bottom: 2.15rem;
-    font-size: 1.1rem;
-    width: 100%; }
+  .hero {
+    max-width: 27rem; }
+    .hero__scroll-down {
+      display: none; }
+    .hero__content {
+      margin-top: 47.8px; }
+    .hero__text {
+      font-size: 1.49rem;
+      margin-bottom: 2.48rem;
+      line-height: 144.1%;
+      word-spacing: 0.01rem;
+      max-width: 26.6rem; }
+    .hero__button {
+      display: block;
+      min-width: 27rem;
+      min-height: 4.3rem;
+      margin-bottom: 2.15rem;
+      font-size: 1.1rem;
+      width: 100%; }
   .section-title__heading {
     margin-bottom: 1.2rem;
     font-size: 1.77rem;
