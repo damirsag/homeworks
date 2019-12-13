@@ -392,6 +392,11 @@ img {
 .section {
   padding: 60px 0; }
   .section-title {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
     text-align: center; }
     .section-title__heading {
       font-family: 'Yeseva One', cursive;
@@ -407,7 +412,7 @@ img {
         background-color: #E3B873;
         margin: 0 10px; }
     .section-title__description {
-      word-spacing: 0.223rem;
+      /*word-spacing: 0.223rem*/
       margin: auto;
       margin-top: 1.44rem;
       font-size: 1.368rem;
@@ -750,7 +755,22 @@ img {
     min-height: 4.3rem;
     margin-bottom: 2.15rem;
     font-size: 1.1rem;
-    width: 100%; } }
+    width: 100%; }
+  .section-title__heading {
+    margin-bottom: 1.2rem;
+    font-size: 1.77rem;
+    font-weight: 500;
+    line-height: 138.6%; }
+  .section-title__description {
+    font-size: 1.25rem;
+    margin-top: 1.6rem;
+    /* line-height: 156.64%; */
+    /* margin-top: 1.84rem; */
+    /* word-spacing: 0.123rem; */
+    text-align: center;
+    max-width: 306px;
+    max-height: 76px;
+    margin-bottom: 0.8rem; } }
 
 @media screen and (max-width: 350px) {
   .hero__button {
