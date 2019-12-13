@@ -412,7 +412,6 @@ img {
         background-color: #E3B873;
         margin: 0 10px; }
     .section-title__description {
-      /*word-spacing: 0.223rem*/
       margin: auto;
       margin-top: 1.44rem;
       font-size: 1.368rem;
@@ -764,9 +763,6 @@ img {
   .section-title__description {
     font-size: 1.25rem;
     margin-top: 1.6rem;
-    /* line-height: 156.64%; */
-    /* margin-top: 1.84rem; */
-    /* word-spacing: 0.123rem; */
     text-align: center;
     max-width: 306px;
     max-height: 76px;
