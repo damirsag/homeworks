@@ -461,7 +461,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 100px;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
   color: #ffffff; }
@@ -741,8 +740,6 @@ img {
     display: none; }
   .hero__title {
     max-width: 27rem; }
-  .hero__content {
-    margin-top: 47.8px; }
   .hero__text {
     font-size: 1.49rem;
     margin-bottom: 2.48rem;
